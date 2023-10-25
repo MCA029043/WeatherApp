@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-vector/clouds-stars-sun-blue-background-childrens-vector-illustration-sky_153074-219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: #000000;
+    font-size: 52px;
+}
+#location-input{
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    opacity: 0.7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.weather-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-details > div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+#location {
+    text-align: center;
+}
+
+#search {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
